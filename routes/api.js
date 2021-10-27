@@ -31,4 +31,16 @@ router.get("/api/transaction", (req, res) => {
     });
 });
 
+// Created this route to remove all listed transactions through Insomnia
+
+// router.delete("/api/transaction/name", (req, res) => {
+//   Transaction.findOneAndDelete(req.params.name)
+//   .then(dbTransaction => {
+//     res.json(dbTransaction);
+//   })
+//   .catch(err => {
+//     res.status(404).json(err);
+//   });
+// });
+
 module.exports = router;
