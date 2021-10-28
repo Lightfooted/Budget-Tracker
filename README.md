@@ -5,6 +5,7 @@
   # Table of Contents
 
   * [Description](#description)
+  * [Deployed Heroku Link](#deployed-heroku-link)
   * [Screenshot](#screenshot)
   * [Usage](#usage)
   * [Built With](#built-with)
@@ -14,6 +15,10 @@
 
   ## Description:
 
+
+  ## Deployed Heroku Link
+
+  https://agile-scrubland-63874.herokuapp.com/
   ## Screenshot
 
   ### Empty Form
@@ -42,13 +47,19 @@
   
   ## Built With
 
+  * Chrome Dev Tools
+  * Express
+  * Heroku
+  * IndexedDB
+  * MongoDB
+  * Mongoose
+  * Node
   ## License
 
   This project uses the MIT license.
   ## Contribution
 
   Pull requests 😉
-
   ## Questions
   
   Have any questions or need further assistance with the project? 
