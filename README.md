@@ -15,7 +15,7 @@
 
   ## Description:
 
-
+  This is a Progressive Web Application (PWA). With the use of service workers, IndexedDB, and the manifest, Budget Tracker allows users to keep track of their expenses without requiring an internet connection. When the user comes back online, their stored offline data will transfer over.
   ## Deployed Heroku Link
 
   https://agile-scrubland-63874.herokuapp.com/
@@ -44,6 +44,8 @@
   ![screenshot](/images/last-transaction-back-online.png)
 
   ## Usage
+
+  To use this application, click the provided deployed link and open with Chrome (Firefox works too). While Online, enter the name and the amount of your transaction with the add or subtract buttons. Easy! Now let's try offline mode. In Chrome, right-click and select Inspect to open Dev Tools and select ↑↓ Network Tab. You should see a drop-down list. In Presets select Offline. Refresh the page. The data from online mode should still appear. Now add or subtract a new transaction. Refresh the page and then switch back to Online mode. Refresh again. Offline data should now appear live!
   
   ## Built With
 
